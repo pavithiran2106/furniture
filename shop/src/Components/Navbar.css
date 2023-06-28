@@ -1,0 +1,131 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    background-color: rgb(30,35,41);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+   
+    
+}
+
+.left{
+    display: flex;
+    flex: 30%;
+
+}
+
+
+.navbar-logo{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+.right{
+    display: flex;
+    flex: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.Home{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Services{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.portfolio{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.aboutus{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Blog{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contactus{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.Home:hover {
+    background-color: rgb(255, 81, 3);
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .Services:hover {
+    background-color: rgb(255, 81, 3);
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .portfolio:hover {
+    background-color: rgb(255, 81, 3);
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .aboutus:hover {
+    background-color: rgb(255, 81, 3);
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .Blog:hover {
+    background-color: rgb(255, 81, 3);
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .contactus:hover {
+    background-color: rgb(255, 81, 3);
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(30,35,41);
+    
+}
+
+.des1{
+    flex: 33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image1{
+    flex:50%;
+    
+}
+
+.set1{
+    flex:40%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(251, 0, 0);
+    
+}
+
+.set1 h1{
+    margin: 20px;
+}
+
+.set1 h2{
+    margin: 10px;
+}
+
+.set1 h3{
+    margin: 10px;
+    color: white;
+}
+
+.set1 p{
+    margin: 20px;
+    color: white;
+}
+
+
+
+.des2{
+    flex: 33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image2{
+    flex:50%;
+}
+
+.set2{
+    flex:40%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(251, 0, 0);
+    
+}
+
+.set2 h1{
+    margin: 20px;
+}
+
+.set2 h2{
+    margin: 10px;
+}
+
+.set2 h3{
+    margin: 10px;
+    color: white;
+}
+
+.set2 p{
+    margin: 20px;
+    color: white;
+}
+
+.des3{
+    flex:33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image3{
+    flex:50%;
+
+}
+
+.set3{
+    flex:40%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(251, 0, 0);
+    
+}
+
+.set3 h1{
+    margin: 20px;
+}
+
+.set3 h2{
+    margin: 10px;
+}
+
+.set3 h3{
+    margin: 10px;
+    color: white;
+}
+
+.set3 p{
+    margin: 20px;
+    color: white;
+}

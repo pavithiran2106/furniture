@@ -1,0 +1,172 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(30,35,41);
+}
+
+.contact p{
+    color: white;
+}
+
+.contact i{
+    color: red;
+}
+
+.contact h1{
+    color: red;
+    margin: 10px;
+}
+
+.contactcol1{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.contactcol2{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;   
+}
+
+.form input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid red;
+}
+
+.form textarea{
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid red;
+}
+
+.form button{
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid white;  
+    color: white;  
+    background-color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.form button:hover{
+    border: 1px solid white;  
+    color: red;  
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.f-Underline{
+    border: 1px solid rgb(255, 81, 3);
+    width: 10%;
+}
+
+.address-{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.address-1{
+    flex: 20%;
+}
+
+.address-2{
+    flex: 80%;
+    justify-content: left;
+    text-align: left;
+}
+
+
+.mail-{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.mail-1{
+    flex: 20%;
+}
+
+.mail-2{
+    flex: 80%;
+    justify-content: left;
+    text-align: left;
+}
+
+
+.phone-{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.phone-1{
+    flex: 20%;
+}
+
+.phone-2{
+    flex: 80%;
+    justify-content: left;
+    text-align: left;
+}
+
+
+.web-{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.web-1{
+    flex: 20%;
+}
+
+.web-2{
+    flex: 80%;
+    justify-content: left;
+    text-align: left;
+}
+
+
+.facebook-{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.facebook-1{
+    flex: 20%;
+}
+
+.facebook-2{
+    flex: 80%;
+    justify-content: left;
+    text-align: left;
+}
